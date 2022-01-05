@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'job_board.urls'
+ROOT_URLCONF = 'News_board.urls'
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'job_board.wsgi.application'
+WSGI_APPLICATION = 'News_board.wsgi.application'
 
 
 # Database
