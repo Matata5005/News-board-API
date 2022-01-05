@@ -7,7 +7,7 @@ Also shows details like creation date, amount of upvotes, title and author-name
 2. Go into the project folder
 3. Build the Image and run the container using Docker
 
-bash
+```bash
 $ git clone https://github.com/Matata5005/News-board-API
 $ cd into News-board-API
 $ docker-compose up --build 
@@ -26,7 +26,7 @@ $ docker-compose run web python3 manage.py migrate
 6. Install dependencies in the requirments.txt file
 5. Run app
 
-bash
+```bash
 $ git clone https://github.com/Matata5005/News-board-API
 $ cd News-board-API
 $ python3 -m venv <name_of_your_virtual_environment> eg: $python3 -m venv venv
