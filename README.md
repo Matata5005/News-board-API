@@ -1,5 +1,5 @@
 ### News-board-API
-CRUD API that shows a list of news with functionality to upvote and comment
+CRUD API that shows a list of news with functionality to upvote and comment.
 Also shows details like creation date, amount of upvotes, title and author-name
 
 ### Set up with Docker
@@ -37,7 +37,7 @@ $ python manage.py runserver
 ```
 
 ### Production
-Import this public collection link https://www.getpostman.com/collections/035a692b97fbd7eb7bf5 on postman to view the APIs
+Import the public collection link https://www.getpostman.com/collections/035a692b97fbd7eb7bf5 on postman to view the APIs
 set Variables:
 - PROD: 'https://newz-board.herokuapp.com/`
 - LOCAL: 'http://127.0.0.1:8000'
